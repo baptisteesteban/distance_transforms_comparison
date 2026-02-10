@@ -4,14 +4,11 @@ version = "0.1.0"
 authors = [{ name = "Baptiste Esteban", email = "baptiste.esteban@epita.fr" }]
 requires-python = "==3.11.*"
 dependencies = [
-    "numpy==2.4.2",
-    "pyside6>=6.10.2",
+    "numpy==2.3",
+    "pyside6==6.10.2",
+    "matplotlib==3.10.8",
+    "numba==0.63.1",
 ]
 
 [dependency-groups]
-dev = [
-    "notebook==7.5.3",
-    "ruff==0.15.0",
-    "matplotlib==3.10.8",
-    "imageio==2.37.2",
-]
+dev = ["notebook==7.5.3", "ruff==0.15.0", "imageio==2.37.2"]

@@ -12,6 +12,7 @@ from .utils import (
 )
 from .level_lines_distance_transform import level_lines_distance_transform
 from .dahu_distance_transform import dahu_distance_transform
+from .geodesic_distance_transform import geodesic_distance_transform
 
 __all__ = [
     "immersion",
@@ -27,4 +28,5 @@ __all__ = [
     "dahu_distance_transform",
     "get_coordinates",
     "get_marker_image",
+    "geodesic_distance_transform",
 ]
